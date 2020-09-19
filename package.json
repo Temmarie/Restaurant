@@ -1,0 +1,29 @@
+{
+  "name": "JS-Restaurant",
+  "version": "1.0.0",
+  "description": "A simple restaurant page built with JavaScript webpack.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temmarie/Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temmarie/Restaurant/issues"
+  },
+  "homepage": "https://github.com/Temmarie/Restaurant#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "lodash": "^4.17.20",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
