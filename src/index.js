@@ -1,21 +1,31 @@
 import _ from 'lodash';
 import './styles/style.css';
-import Icon from './images/icon.jpg';
+import nav from './nav';
 
-  function component() {
-    const element = document.createElement('div');
+const content = document.getElementById('content');
 
-   // Lodash, currently included via a script, is required for this line to work
-   // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
-    // Add the image to our existing div.
-   const myIcon = new Image();
-   myIcon.src = Icon;
+function show(e) {
+  const child = content.children[1];
 
-   element.appendChild(myIcon);
-
-    return element;
+  if (e.id === 'tab2') {
+    content.removeChild(child);
+    content.appendChild(menuDiv());
   }
 
-  document.body.appendChild(component());
+  if (e.id === 'tab3') {
+    content.removeChild(child);
+    content.appendChild(contactDIv());
+  }
+
+  if (e.id === 'tab1') {
+    content.removeChild(child);
+    content.appendChild(homeDiv());
+  }
+}
+
+window.onload = () => {
+  content.innerHTML = nav();
+  content.appendChild(homeDiv());
+  const tabs = document.getElementsByClassName('tab');
+  [...tabs].forEach(tab => tab.addEventListener('click', () => show(tab)));
+};
