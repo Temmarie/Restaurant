@@ -1,2 +1,2 @@
 # Restaurant
-A simple restaurant page built with JavaScript webpack
+A simple restaurant page built with JavaScript webpack.
