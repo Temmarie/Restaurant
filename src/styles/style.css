@@ -1,0 +1,163 @@
+body {
+  background-image: url('../images/bakery-bg-2.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+.welcome {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #b24950;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.nav-bar ul li {
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+}
+
+.nav-bar ul li a {
+  color: #ca565e;
+  text-decoration: none;
+}
+
+.food-menu {
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 50px;
+  grid-column-gap: 12px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.food-item {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-item figure {
+  width: 300px;
+  height: 250px;
+}
+
+.food-item figcaption {
+  font-size: 19px;
+  color: #b24950;
+}
+
+.food-item figcaption span {
+  font-size: 22px;
+  color: rgba(197, 131, 131, 0.938);
+}
+
+figure img {
+  height: 200px;
+  width: 220px;
+  box-shadow: 0 0 6px 12px rgb(243, 220, 236);
+  border-radius: 137px;
+}
+
+.contact-box {
+  max-width: 750px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: rgb(224, 154, 154);
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: lavenderblush;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgb(224, 154, 154);
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: rgba(197, 131, 131, 0.938);
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+.menu-header {
+  color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+  .food-menu {
+    margin: 0 auto 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 12px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+  }
+}
