@@ -70,7 +70,7 @@ body {
 .food-item figcaption span {
   font-size: 22px;
   color: rgba(197, 131, 131, 0.938);
-} 
+}
 
 figure img {
   height: 200px;
@@ -105,14 +105,14 @@ h2::after {
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color:rgb(224, 154, 154);
+  background-color: rgb(224, 154, 154);
 }
 
 .field {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
-  background-color:lavenderblush;
+  background-color: lavenderblush;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   margin-bottom: 22px;
