@@ -76,6 +76,6 @@ const menuDiv = () => {
   div.innerHTML = menu;
 
   return div;
-}
+};
 
 export default menuDiv;

@@ -27,6 +27,6 @@ const homeDiv = () => {
   div1.innerHTML = home;
 
   return div1;
-}
+};
 
 export default homeDiv;

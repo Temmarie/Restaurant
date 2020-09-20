@@ -17,6 +17,6 @@ const contactDiv = () => {
   div.innerHTML = contact;
 
   return div;
-}
+};
 
 export default contactDiv;
