@@ -25,7 +25,6 @@ function show(e) {
   }
 }
 
-
 window.onload = () => {
   content.innerHTML = nav();
   content.appendChild(homeDiv());

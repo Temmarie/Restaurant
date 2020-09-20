@@ -1,12 +1,12 @@
-import lava from '../src/images/lava.jpg';
-import croissants from '../src/images/croissants.jpg';
-import jumbo from '../src/images/jumbo-choco.jpg';
-import oreo from '../src/images/oreo-pots.jpg';
-import shirl from '../src/images/shirl.jpg';
-import crans from '../src/images/glazed-cranberry.jpg'; 
-import vals from '../src/images/vals.jpg'; 
-import velvet from '../src/images/velvet.jpg';
-import choco from '../src/images/choco-cup.jpg';
+import lava from './images/lava.jpg';
+import croissants from './images/croissants.jpg';
+import jumbo from './images/jumbo-choco.jpg';
+import oreo from './images/oreo-pots.jpg';
+import shirl from './images/shirl.jpg';
+import crans from './images/glazed-cranberry.jpg';
+import vals from './images/vals.jpg';
+import velvet from './images/velvet.jpg';
+import choco from './images/choco-cup.jpg';
 
 const menu = `
   

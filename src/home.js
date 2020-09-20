@@ -20,5 +20,4 @@ function homeDiv() {
   return div1;
 }
 
-
 export default homeDiv;
