@@ -71,7 +71,7 @@ const menu = `
 </div>
   `;
 
-function menuDiv() {
+const menuDiv = () => {
   const div = document.createElement('div');
   div.innerHTML = menu;
 

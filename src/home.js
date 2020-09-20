@@ -22,7 +22,7 @@ const home = `
   </div>
   `;
 
-function homeDiv() {
+const homeDiv = () => {
   const div1 = document.createElement('div');
   div1.innerHTML = home;
 
