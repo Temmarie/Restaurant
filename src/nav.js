@@ -1,10 +1,9 @@
 const nav = () => `
-      <nav class='app-nav'>
+      <nav class='nav-bar'>
         <ul>
-          <li id='home' class='tab'><a href='#'>Home</a></li>
-          <li id='about' class='tab'><a href='#'>About</a></li>
-          <li id='menu' class='tab'><a href='#'>Menu</a></li id='menu' class='tab'>
-          <li id='contact' class='tab'><a href='#'>contact</a></li id='contact' class='tab'>
+        <li id="tab1" class="tab"><a href="#">Home</a></li>
+        <li id="tab2" class="tab"><a href="#">Menu</a></li>
+        <li id="tab3" class="tab"><a href="#">Contact</a></li>
         </ul>
       </nav>
 `;
