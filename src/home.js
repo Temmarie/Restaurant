@@ -1,13 +1,22 @@
 const home = `
   <div id="welcome" class="container-fluid column p-5">
   <h1 class="display-4 text-center name">Becca's Bakery</h1>
-
   <p class="welcome">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Baking the difference.
+  We create delicious memories.
+  Just like home.
+  Let us keep Your cookie jar filled.
+  We make the impossible delicious.
+  The Fresh maker.
+  The home of fresh baking.
+  The sweetest place in town.
+  Freshly baked all day. Every day!
+  Freshness baked Everyday.
+  Fresh to you each day!
+  Nothing beats Becca's Bakery!
+  Everything we bake, we bake with love.
+  Fun Family Memories begin here.
+  Love at first bite.
   </p>
 
   </div>

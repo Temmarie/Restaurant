@@ -9,7 +9,7 @@ import velvet from './images/velvet.jpg';
 import choco from './images/choco-cup.jpg';
 
 const menu = `
-  
+  <h3 class="text-center menu-header">Yummy menu list!</h3></br>
 <div class="food-menu text-center">
 <div class="food-item ">
   <figure>

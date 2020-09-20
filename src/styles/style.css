@@ -144,6 +144,10 @@ textarea {
   background-color: #fff;
 }
 
+.menu-header {
+  color: #dc3545;
+}
+
 @media screen and (max-width: 768px) {
   .food-menu {
     margin: 0 auto 80px;
