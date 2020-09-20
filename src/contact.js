@@ -12,7 +12,7 @@ const contact = `
   </div>
   `;
 
-function contactDiv() {
+const contactDiv = () => {
   const div = document.createElement('div');
   div.innerHTML = contact;
 
