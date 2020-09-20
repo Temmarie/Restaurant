@@ -12,6 +12,7 @@ body {
   font-size: 22px;
   font-weight: bold;
   font-family: cursive;
+  color: #b24950;
 }
 
 .nav-bar {
@@ -36,7 +37,7 @@ body {
 }
 
 .nav-bar ul li a {
-  color: #e09a9a;
+  color: #ca565e;
   text-decoration: none;
 }
 
@@ -65,6 +66,7 @@ body {
 
 .food-item figcaption {
   font-size: 19px;
+  color: #b24950;
 }
 
 .food-item figcaption span {
