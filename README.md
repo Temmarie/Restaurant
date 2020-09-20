@@ -1,8 +1,8 @@
 # Restaurant
 A simple restaurant page built with JavaScript webpack
 
-![image]('../src/images/home.png)
-![image]('../src/images/menu.png)
+![image](https://github.com/Temmarie/Restaurant/blob/feature/src/images/home.png)
+![image](https://github.com/Temmarie/Restaurant/blob/feature/src/images/menu.png)
 
 ## Built With
 
